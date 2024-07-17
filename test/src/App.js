@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Quill from '../../my-new-react-app/src/Quill';
+import Edtr from '../../my-new-react-app/src/Editor';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Quill/>
+      <Edtr/>
     </div>
   );
 }
