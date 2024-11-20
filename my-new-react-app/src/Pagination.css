@@ -1,0 +1,36 @@
+.paginated-container {
+    position: relative;
+    padding-bottom: 50px; /* Adjust padding to provide space for pagination */
+  }
+  
+  .pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .pagination li a:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .active a {
+    background-color: #007bff;
+    color: white;
+  }
+  
